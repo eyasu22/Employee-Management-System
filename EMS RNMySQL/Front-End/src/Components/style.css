@@ -1,0 +1,75 @@
+/* Email input with icon */
+.email-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.email-input .fa-envelope {
+  position: absolute;
+  left: 10px;
+  color: #aaa; /* Light color for the email icon */
+}
+
+.email-input input {
+  padding-left: 30px; /* Make space for the icon */
+  width: 100%; /* Ensure input field is full width */
+}
+
+/* Password input with icon */
+.password-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input .fa-lock {
+  position: absolute;
+  left: 10px;
+}
+
+.password-input input {
+  padding-left: 30px; /* Make space for the icon */
+  width: 100%; /* Ensure input field is full width */
+}
+
+.loginPage {
+  background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("Images/hhh.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+
+.loginForm {
+  background: #ffffff;
+  color: #000000; /* Set color to black to be visible on white background */
+  padding: 20px; /* Added padding for better appearance */
+}
+
+ul li:hover {
+  background-color: gray;
+}
+
+.employee_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.emp_det_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+label {
+  color: #212529;
+  font-size: 1.1em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+  color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+}

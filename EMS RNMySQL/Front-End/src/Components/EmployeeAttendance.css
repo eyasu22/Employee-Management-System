@@ -1,0 +1,52 @@
+.attendance-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.attendance-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.attendance-button {
+  background-color: #4caf50;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+}
+
+.attendance-button.checked-out {
+  background-color: #f44336;
+}
+
+.attendance-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.attendance-button:hover {
+  background-color: #45a049;
+}
+
+.status-message {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}

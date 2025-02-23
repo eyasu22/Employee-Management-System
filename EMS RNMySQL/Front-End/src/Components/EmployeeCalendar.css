@@ -1,0 +1,9 @@
+.calendar-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.custom-calendar {
+  max-width: 400px;
+  margin: auto;
+}

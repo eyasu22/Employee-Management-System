@@ -1,0 +1,80 @@
+/* AddAdmin.css */
+
+/* Container for the Add Admin form */
+.add-admin-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Success/Error message styling */
+  .message {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .message.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  /* Form field styling */
+  .admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #4e90d5;
+    box-shadow: 0 0 8px rgba(78, 144, 213, 0.6);
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    padding: 12px 20px;
+    background-color: #4e90d5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #3b76a5;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #c4c4c4;
+    cursor: not-allowed;
+  }
+  

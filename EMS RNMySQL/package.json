@@ -1,0 +1,37 @@
+{
+  "name": "emsrnmysql",
+  "version": "1.0.0",
+  "description": "Employee Management System using React, Node.js, and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "EMS",
+    "React",
+    "Node.js",
+    "MySQL"
+  ],
+  "author": "Eyasu Degefe",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.4",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
